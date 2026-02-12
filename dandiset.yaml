@@ -8,9 +8,14 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 4208677173
+  numberOfFiles: 2
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: International Brain Laboratory (2026) IBL - Widefield Imaging Data (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001712/draft
 contributor:
