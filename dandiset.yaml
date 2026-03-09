@@ -40,9 +40,8 @@ assetsSummary:
   - OnePhotonSeries
 citation: International Brain Laboratory; Davatolhagh, M. Felicia; Couto, João; Melin,
   Maxwell D.; Oesch, Lukas T.; Findling, Charles; Morales, P. Zitlali; Hong, Isabelle;
-  Churchland, Anne K. (2026) IBL Widefield - Altered Use of Prior Expectations and
-  Modified Neural Dynamics in a Mouse Model of Autism (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001712/draft
+  Churchland, Anne K. (2026) IBL Widefield (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001712/draft
 contributor:
 - affiliation: []
   email: info@internationalbrainlab.org
@@ -150,8 +149,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001712/versions/draft/assets/
-name: IBL Widefield - Altered Use of Prior Expectations and Modified Neural Dynamics
-  in a Mouse Model of Autism
+name: IBL Widefield
 relatedResource:
 - name: Altered Use of Prior Expectations and Modified Neural Dynamics in a Mouse
     Model of Autism
