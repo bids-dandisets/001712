@@ -3,7 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/NCIT_C88412
+  name: Autism Spectrum Disorder
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001851
+  name: cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -32,8 +38,11 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - OnePhotonSeries
-citation: International Brain Laboratory (2026) IBL - Widefield Imaging Data (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001712/draft
+citation: International Brain Laboratory; Davatolhagh, M. Felicia; Couto, João; Melin,
+  Maxwell D.; Oesch, Lukas T.; Findling, Charles; Morales, P. Zitlali; Hong, Isabelle;
+  Churchland, Anne K. (2026) IBL Widefield - Altered Use of Prior Expectations and
+  Modified Neural Dynamics in a Mouse Model of Autism (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/001712/draft
 contributor:
 - affiliation: []
   email: info@internationalbrainlab.org
@@ -43,17 +52,114 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Organization
   url: https://www.internationalbrainlab.com/
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  identifier: 0000-0002-0607-5164
+  includeInCitation: true
+  name: Davatolhagh, M. Felicia
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  identifier: 0000-0002-5580-6947
+  includeInCitation: true
+  name: Couto, João
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  identifier: 0000-0001-5623-5966
+  includeInCitation: true
+  name: Melin, Maxwell D.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Oesch, Lukas T.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01swzsf04
+    name: University of Geneva
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Findling, Charles
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  identifier: 0000-0003-3692-8137
+  includeInCitation: true
+  name: Morales, P. Zitlali
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  identifier: 0000-0002-7246-9233
+  includeInCitation: true
+  name: Hong, Isabelle
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: University of California, Los Angeles
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Churchland, Anne K.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: U19NS123716
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-02-09T12:17:08.388995+00:00'
-description: Work in progress examples for Widefield data collected by IBL.
+description: This dataset contains widefield imaging data from mice, investigating
+  how prior expectations and neural dynamics are modified in a mouse model of autism
+  (CNTNALP2 knockout). The study explores sensory perception and decision-making tasks
+  to understand the neural basis of altered prior utilization.
 ethicsApproval: []
 id: DANDI:001712/draft
 identifier: DANDI:001712
+keywords:
+- CNTNALP2
+- widefield imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001712/versions/draft/assets/
-name: IBL - Widefield Imaging Data
-relatedResource: []
+name: IBL Widefield - Altered Use of Prior Expectations and Modified Neural Dynamics
+  in a Mouse Model of Autism
+relatedResource:
+- name: Altered Use of Prior Expectations and Modified Neural Dynamics in a Mouse
+    Model of Autism
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2025.09.12.675910
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
