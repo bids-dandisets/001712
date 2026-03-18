@@ -1,0 +1,11 @@
+dandiset.yaml
+dataset_description.json
+participants.tsv
+participants.json
+derivatives/dataset_description.json
+sub-FD+28/sub-FD+28_sessions.tsv
+sub-FD+28/sub-FD+28_sessions.json
+sub-FD+28/ses-81f90b18+e61c+4d32+bbce+3e0c5f33f06c/ecephys/sub-FD+28_ses-81f90b18+e61c+4d32+bbce+3e0c5f33f06c_ecephys.nwb
+sub-FD+24/sub-FD+24_sessions.tsv
+sub-FD+24/sub-FD+24_sessions.json
+sub-FD+24/ses-b2aa9c2d+524e+4966+840c+f10482ae2c1a/ecephys/sub-FD+24_ses-b2aa9c2d+524e+4966+840c+f10482ae2c1a_ecephys.nwb
