@@ -1,0 +1,26 @@
+{
+    "Name": "IBL Widefield",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dataset contains widefield imaging data from mice, investigating how prior expectations and neural dynamics are modified in a mouse model of autism (CNTNALP2 knockout). The study explores sensory perception and decision-making tasks to understand the neural basis of altered prior utilization.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Davatolhagh, M. Felicia",
+        "Couto, Jo\u00e3o",
+        "Melin, Maxwell D.",
+        "Oesch, Lukas T.",
+        "Findling, Charles",
+        "Morales, P. Zitlali",
+        "Hong, Isabelle",
+        "Churchland, Anne K."
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.11.2.dev15+g782176cb1",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
