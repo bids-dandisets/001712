@@ -1,3 +1,3 @@
-participant_id	species	sex	strain
-sub-FD+24	Mus musculus	F	C57BL/6
-sub-FD+28	Mus musculus	F	
+participant_id	original_participant_id	species	sex	strain
+sub-FD+24	sub-FD-24	Mus musculus	F	C57BL/6
+sub-FD+28	sub-FD-28	Mus musculus	F	
